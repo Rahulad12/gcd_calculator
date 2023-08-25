@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input{
+    padding: .5rem;
+    font-size: 1rem;
+    margin: 5px;
+}
+button{
+    padding: .5rem;
+}
+.container{
+    /* border: 2px solid red; */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin: 2rem;
+}
+
+#get_gcd{
+    margin-top: 8px;
+    color: blue;
+}
+small{
+    position: absolute;
+    bottom: 2px;
+
+}
